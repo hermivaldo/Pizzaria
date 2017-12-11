@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pizzaria</string>
+    <string name="form_username">usuário</string>
+    <string name="form_password">senha</string>
+</resources>
