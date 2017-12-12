@@ -83,14 +83,17 @@
         android:id="@+id/rdTamanho">
 
         <RadioButton
+            android:id="@+id/rbBroto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Broto"/>
         <RadioButton
+            android:id="@+id/rbNormal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Normal"/>
         <RadioButton
+            android:id="@+id/rbGrande"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Grande"/>
@@ -107,8 +110,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/pagamentos"
-        android:id="@+id/sp_pagamentos">
+        android:id="@+id/spPagamentos">
 
     </Spinner>
+
+    <Button
+        android:id="@+id/btPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FECHAR PEDIDO"/>
 
 </LinearLayout>
