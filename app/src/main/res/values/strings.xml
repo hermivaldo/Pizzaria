@@ -2,4 +2,7 @@
     <string name="app_name">Pizzaria</string>
     <string name="form_username">usuário</string>
     <string name="form_password">senha</string>
+    <string name="vale_refeicao">Vale refeição</string>
+    <string name="dinheiro">Dinheiro</string>
+    <string name="cartao">Cartão</string>
 </resources>
